@@ -8,4 +8,4 @@
     command: kubectl delete deployment.apps/cicd-deployment
 
   - name: create a deployment
-    command: kubectl apply -f ./study/k8s/cicd-devops-deployment.yml
+    command: kubectl apply -f ./study/k8s/cicd-devops-deployment.yml #절대 경로말고 상대 경로로 설정해도 잘 동작함.
