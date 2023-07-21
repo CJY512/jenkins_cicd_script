@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: cicd-devops-project
-        image: edowon0623/cicd-project-ansible
+        image: cjy512/cicd-project-ansible
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
