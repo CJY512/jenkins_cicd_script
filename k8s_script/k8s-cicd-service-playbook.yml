@@ -5,4 +5,4 @@
 
   tasks:
   - name: create a service
-    command: kubectl apply -f cicd-devops-service.yml
+    command: kubectl apply -f ./study/k8s/cicd-devops-service.yml
